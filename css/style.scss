@@ -405,10 +405,14 @@ summary::-webkit-details-marker {
         .sub-desc {
             font-family: Lato;
             font-size: 20px;
-            font-style: italic;
             line-height: 24px;
             text-align: center;
             color: #222224;
+
+            .sub-desc-span {
+                font-style: italic;
+
+            }
         }
     }
 

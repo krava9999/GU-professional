@@ -478,10 +478,13 @@ summary::-webkit-details-marker {
 .sub .sub__left .sub-desc {
   font-family: Lato;
   font-size: 20px;
-  font-style: italic;
   line-height: 24px;
   text-align: center;
   color: #222224;
+}
+
+.sub .sub__left .sub-desc .sub-desc-span {
+  font-style: italic;
 }
 
 .sub .sub__form {
