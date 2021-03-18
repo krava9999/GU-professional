@@ -253,24 +253,25 @@ summary::-webkit-details-marker {
                 padding: 24px 16px 20px;
 
                 .product__name {
-                    font-style: normal;
-                    font-weight: normal;
+                    font-family: Lato;
                     font-size: 13px;
                     line-height: 16px;
                     color: #000000;
+
                 }
 
                 .product__text {
-                    font-style: normal;
-                    font-weight: normal;
+                    margin-top: 15px;
+                    margin-bottom: 18px;
+                    font-family: Lato;
+                    font-weight: 300;
                     font-size: 14px;
                     line-height: 17px;
                     color: #5D5D5D;
-                    margin-top: 12px;
-                    margin-bottom: 18px;
                 }
 
                 .product__price {
+                    font-family: Lato;
                     font-style: normal;
                     font-weight: normal;
                     font-size: 16px;
