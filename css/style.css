@@ -312,6 +312,10 @@ summary::-webkit-details-marker {
   color: #000000;
 }
 
+.fetured .product-box .product .product__content .product__name:hover {
+  color: #F16D7F;
+}
+
 .fetured .product-box .product .product__content .product__text {
   margin-top: 15px;
   margin-bottom: 18px;
@@ -908,6 +912,10 @@ summary::-webkit-details-marker {
   color: #F16D7F;
 }
 
+.fetured .page-box .page-list:nth-child(3) {
+  color: #F16D7F;
+}
+
 .shoping {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1205,8 +1213,13 @@ summary::-webkit-details-marker {
   color: #F16D7F;
 }
 
+.fetured .full-description .box-desc .box-box .desc-color-line {
+  margin: 12px 0;
+  width: 63px;
+  border: 2px solid #EF5B70;
+}
+
 .fetured .full-description .box-desc .box-box .desc-short {
-  margin-top: 27px;
   font-family: Lato;
   font-style: normal;
   font-weight: 300;

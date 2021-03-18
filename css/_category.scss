@@ -272,10 +272,16 @@
                 color: #ebebeb;
             }
 
+
+
             .page-link:hover {
                 color: $selectColor;
 
             }
+        }
+
+        .page-list:nth-child(3) {
+            color: $selectColor;
         }
     }
 }

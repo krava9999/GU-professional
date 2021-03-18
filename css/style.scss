@@ -260,6 +260,10 @@ summary::-webkit-details-marker {
 
                 }
 
+                .product__name:hover {
+                    color: $selectColor;
+                }
+
                 .product__text {
                     margin-top: 15px;
                     margin-bottom: 18px;
