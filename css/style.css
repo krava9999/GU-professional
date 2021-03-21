@@ -40,6 +40,16 @@ summary::-webkit-details-marker {
   line-height: 17px;
 }
 
+.input-project {
+  padding: 13px 0 16px 17px;
+  width: 360px;
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #222222;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1060,14 +1070,7 @@ summary::-webkit-details-marker {
 }
 
 .shoping__right .shipping-input {
-  padding: 13px 0 16px 17px;
-  width: 360px;
   margin-top: 20px;
-  font-family: Lato;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 16px;
-  color: #222222;
 }
 
 .shoping__right .btn-get-price {
@@ -1165,12 +1168,9 @@ summary::-webkit-details-marker {
 }
 
 .fetured .full-description {
-  position: relative;
   width: 1140px;
   height: 550px;
-}
-
-.fetured .full-description .box-desc {
+  margin-top: -120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1181,15 +1181,15 @@ summary::-webkit-details-marker {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  position: absolute;
-  top: -115px;
   height: 601px;
   background: #FFFFFF;
   border: 1px solid #EAEAEA;
   width: 1140px;
+  z-index: 2;
 }
 
-.fetured .full-description .box-desc .box-box {
+.fetured .full-description .box-desc {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1207,7 +1207,7 @@ summary::-webkit-details-marker {
   padding: 65px 0;
 }
 
-.fetured .full-description .box-desc .box-box .desc-cat-name {
+.fetured .full-description .box-desc .desc-cat-name {
   font-family: Lato;
   font-style: normal;
   font-weight: 300;
@@ -1216,13 +1216,13 @@ summary::-webkit-details-marker {
   color: #F16D7F;
 }
 
-.fetured .full-description .box-desc .box-box .desc-color-line {
+.fetured .full-description .box-desc .desc-color-line {
   margin: 12px 0;
   width: 63px;
   border: 2px solid #EF5B70;
 }
 
-.fetured .full-description .box-desc .box-box .desc-short {
+.fetured .full-description .box-desc .desc-short {
   font-family: Lato;
   font-style: normal;
   font-weight: 300;
@@ -1231,7 +1231,7 @@ summary::-webkit-details-marker {
   color: #4D4D4D;
 }
 
-.fetured .full-description .box-desc .box-box .desc-full {
+.fetured .full-description .box-desc .desc-full {
   font-family: Lato;
   font-style: normal;
   font-weight: 300;
@@ -1242,7 +1242,7 @@ summary::-webkit-details-marker {
   margin-top: 48px;
 }
 
-.fetured .full-description .box-desc .box-box .desc-price {
+.fetured .full-description .box-desc .desc-price {
   margin-top: 32px;
   font-family: Lato;
   font-style: normal;
@@ -1252,14 +1252,14 @@ summary::-webkit-details-marker {
   color: #EF5B70;
 }
 
-.fetured .full-description .box-desc .box-box .desc-line {
+.fetured .full-description .box-desc .desc-line {
   margin-top: 65px;
   margin-bottom: 65px;
   width: 641px;
   border: 1px solid #EAEAEA;
 }
 
-.fetured .full-description .box-desc .box-box .desc-btn {
+.fetured .full-description .box-desc .desc-btn {
   border: 1px solid #FF6A6A;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1277,17 +1277,102 @@ summary::-webkit-details-marker {
   margin-top: 49px;
 }
 
-.fetured .full-description .box-desc .box-box .desc-btn:hover {
+.fetured .full-description .box-desc .desc-btn:hover {
   background: #F26376;
   color: #FFFFFF;
 }
 
-.fetured .full-description .box-desc .box-box .ico-desc-btn {
+.fetured .full-description .box-desc .ico-desc-btn {
   margin-right: 23px;
   fill: #EF5B70;
 }
 
-.fetured .full-description .box-desc .box-box .desc-btn:hover .ico-desc-btn path {
+.fetured .full-description .box-desc .desc-btn:hover .ico-desc-btn path {
   fill: #FFFFFF;
+}
+
+.sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+.sign-up .sign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sign-up .sign__paragraph {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+
+.sign-up .sign__input {
+  margin-top: 20px;
+}
+
+.sign-up .sign .box-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 31px 0 33px 0;
+  gap: 20px;
+}
+
+.sign-up .sign .box-checkbox__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sign-up .sign .box-checkbox__text {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 12px;
+  /* 11px вообще не читаемо*/
+  line-height: 13px;
+  color: #000000;
+  margin-left: 10px;
+}
+
+.sign-up .sign__rule {
+  margin-top: 15px;
+  width: 360px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.sign-up .sign__btn {
+  text-transform: uppercase;
+  width: 167px;
+  margin-top: 39px;
+  padding: 16px 0;
+  background: #F16D7F;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.sign-up .sign__btn:hover {
+  background-color: #D73C3C;
 }
 /*# sourceMappingURL=style.css.map */

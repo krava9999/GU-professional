@@ -40,6 +40,17 @@ summary::-webkit-details-marker {
     line-height: 17px;
 }
 
+.input-project {
+    padding: 13px 0 16px 17px;
+    width: 360px;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #222222;
+
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -528,3 +539,4 @@ summary::-webkit-details-marker {
 @import "category";
 @import "cart";
 @import "open-prod";
+@import "sign-up";
