@@ -1375,4 +1375,52 @@ summary::-webkit-details-marker {
 .sign-up .sign__btn:hover {
   background-color: #D73C3C;
 }
+
+.sign-up .loyalty {
+  width: 652px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sign-up .loyalty__heading, .sign-up .loyalty__desc {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.sign-up .loyalty__desc {
+  margin-top: 22px;
+}
+
+.sign-up .loyalty .list-box-loyalty {
+  margin-top: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 17px;
+}
+
+.sign-up .loyalty .list-box-loyalty__list {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.sign-up .loyalty .list-box-loyalty__list::before {
+  content: url(../img/list-ico.svg);
+  margin-right: 23px;
+}
 /*# sourceMappingURL=style.css.map */
