@@ -16,6 +16,7 @@ li {
 
 summary {
     display: block;
+    outline: none;
 }
 
 summary::-webkit-details-marker {
@@ -28,10 +29,16 @@ summary::-webkit-details-marker {
     margin: 0;
 }
 
+input {
+    outline: none;
+}
+
 .center {
     padding-left: calc(50% - 570px);
     padding-right: calc(50% - 570px);
 }
+
+
 
 .paragraph {
     font-family: Lato;
@@ -69,6 +76,78 @@ summary::-webkit-details-marker {
         align-items: flex-end;
         /*gap: 33px;      -- манельная поддержка*/
 
+
+        .big-menu {
+            flex-direction: column;
+            position: absolute;
+            width: 232px;
+            background: #FFFFFF;
+            top: 79px;
+            right: 0;
+            height: 764px;
+            display: none;
+            padding: 16px 16px 0px 34px;
+
+            &__close {
+                margin-left: auto;
+            }
+
+            &__heading {
+                font-family: Lato;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 17px;
+                color: #000000;
+                text-transform: uppercase;
+            }
+
+            &__catalog {
+                display: flex;
+                flex-direction: column;
+                margin-top: 24px;
+            }
+
+            &__cat-name {
+                font-family: Lato;
+                font-size: 14px;
+                line-height: 17px;
+                color: $selectColor;
+                text-transform: uppercase;
+                margin-top: 20px;
+
+            }
+
+            &__item {
+                display: flex;
+                flex-direction: column;
+                margin-top: 12px;
+                gap: 11px;
+            }
+
+            &__item-link {
+                font-family: Lato;
+                font-size: 14px;
+                line-height: 17px;
+                color: #6F6E6E;
+                margin-left: 22px;
+
+
+            }
+
+        }
+
+        .switch-check {
+            display: none;
+        }
+
+
+
+        .switch-check:checked~.big-menu {
+            display: flex;
+        }
+
+
+
         .my_buy {
             position: relative;
 
@@ -95,51 +174,62 @@ summary::-webkit-details-marker {
     }
 }
 
+
 .promo {
+    background: #F1E4E6;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f1e4e6;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
 
-    .promo-man {
-        display: flex;
-
-        .promo-img {
-            width: 100%;
-        }
+    &__img {
+        width: 50%;
     }
 
-    .promo-text {
+    &__photo {
+        width: 100%;
+    }
+
+    &__h1 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+        color: #222224;
+    }
+
+    &__h2 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        color: #222224;
+    }
+
+    &__h2_select {
+        color: $selectColor;
+    }
+
+
+    &__text {
+        padding-top: 16%;
+    }
+
+    &__content {
         border-left: 12px solid $selectColor;
         padding-left: 16px;
-        margin-right: 56px;
-
-        .promo-top-text {
-            font-size: 48px;
-            font-weight: 900;
-            width: 377px;
-            font-family: Lato;
-            color: #222222;
-        }
-
-        .promo-down-text {
-            font-family: Lato;
-            font-size: 32px;
-            color: #222222;
-
-            .color-fashion {
-                color: $selectColor;
-
-            }
-        }
     }
 }
 
+
+
 .categories {
     padding-top: 65px;
-    padding-bottom: 45px;
+    padding-bottom: 96px;
     display: flex;
     flex-direction: column;
+    gap: 30px;
 
     .top-categories {
         display: flex;
@@ -188,7 +278,6 @@ summary::-webkit-details-marker {
     }
 
     .down-categories {
-        margin-top: 30px;
 
         .people-categories {
             flex-direction: column;
@@ -197,6 +286,10 @@ summary::-webkit-details-marker {
             align-items: center;
             justify-content: center;
 
+            .categories-img {
+                width: 100%;
+                background-size: cover;
+            }
 
             .categories-text-center {
                 position: absolute;
@@ -227,8 +320,6 @@ summary::-webkit-details-marker {
     padding-bottom: 95.5px;
 
 
-
-
     .fetured-heading {
         font-family: Lato;
         font-size: 30px;
@@ -246,6 +337,7 @@ summary::-webkit-details-marker {
         flex-wrap: wrap;
         margin-top: 48px;
         margin-bottom: 48.5px;
+        justify-content: center;
 
         .product {
             width: 360px;
@@ -389,6 +481,7 @@ summary::-webkit-details-marker {
         }
 
         .feature__desc {
+            opacity: 0.8;
             text-align: center;
             color: #FBFBFB;
         }
@@ -540,3 +633,9 @@ summary::-webkit-details-marker {
 @import "cart";
 @import "open-prod";
 @import "sign-up";
+@import "w1024px";
+@import "w375px";
+@import "Registration1024px";
+@import "Registration375px";
+@import "Cart1024px";
+@import "Cart375px";

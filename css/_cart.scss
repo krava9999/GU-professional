@@ -109,6 +109,12 @@
     &__right {
         display: flex;
         flex-direction: column;
+        align-items: end;
+
+        .shipping-adaptive {
+            display: flex;
+            flex-direction: column;
+        }
 
         .shipping-heading {
             font-family: Lato;

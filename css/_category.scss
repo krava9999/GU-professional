@@ -20,6 +20,7 @@
         justify-content: space-between;
 
         .breadcrumbs-link {
+            text-transform: uppercase;
             font-family: Lato;
             font-weight: 300;
             font-size: 14px;
@@ -53,7 +54,6 @@
 
 
 .fetured {
-    padding-top: 51px;
 
     /*стили с сортировкой*/
     .top-filter {
@@ -160,7 +160,6 @@
             }
 
             .filter-menu[open] .filter-cat {
-                outline: none;
                 color: #EF5B70;
 
             }
