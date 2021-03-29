@@ -87,6 +87,8 @@ input {
             height: 764px;
             display: none;
             padding: 16px 16px 0px 34px;
+            z-index: 1;
+            box-shadow: (17px 19px 24px rgba(0, 0, 0, 0.13));
 
             &__close {
                 margin-left: auto;
@@ -639,3 +641,4 @@ input {
 @import "Registration375px";
 @import "Cart1024px";
 @import "Cart375px";
+@import "open-prod1024px";

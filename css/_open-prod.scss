@@ -6,6 +6,10 @@
     height: 777px;
     background: #F7F7F7;
 
+    .big-img {
+        width: 100%;
+    }
+
     .btn-slider {
         background: rgba(42, 42, 42, 0.15);
         padding: 13px 17px;
@@ -19,7 +23,6 @@
 .fetured {
 
     .full-description {
-        width: 1140px;
         height: 550px;
         margin-top: -120px;
         display: flex;
@@ -28,7 +31,8 @@
         height: 601px;
         background: #FFFFFF;
         border: 1px solid #EAEAEA;
-        width: 1140px;
+        max-width: 1140px;
+        width: 100%;
         z-index: 2;
 
 
