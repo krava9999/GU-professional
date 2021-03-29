@@ -87,8 +87,16 @@ input {
             height: 764px;
             display: none;
             padding: 16px 16px 0px 34px;
-            z-index: 1;
+            z-index: 2;
             box-shadow: (17px 19px 24px rgba(0, 0, 0, 0.13));
+
+            .top-big-menu {
+                display: flex;
+
+                .hide-ico-desctop {
+                    display: none;
+                }
+            }
 
             &__close {
                 margin-left: auto;
@@ -642,3 +650,5 @@ input {
 @import "Cart1024px";
 @import "Cart375px";
 @import "open-prod1024px";
+@import "open-prod375px";
+@import "category1024px";

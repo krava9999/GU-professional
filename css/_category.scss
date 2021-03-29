@@ -61,10 +61,11 @@
         width: 100%;
         position: relative;
         justify-content: center;
+        margin-top: 51px;
 
         .filter {
             left: 0;
-            top: -10px;
+            top: 0;
             z-index: 1;
             position: absolute;
             background: #FFFFFF;
@@ -178,6 +179,9 @@
                 fill: #EF5B70;
             }
 
+            .filter-ico-adaptive {
+                display: none;
+            }
 
 
 

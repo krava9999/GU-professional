@@ -22,10 +22,16 @@
             display: none;
         }
 
+        .hide-ico-desctop {
+            display: block;
+        }
+
         .header__right .switch-check:checked~.big-menu {
             width: 100%;
             z-index: 2;
         }
+
+
 
         .header__right .header-ico:not(:last-child) {
             margin: 0;
