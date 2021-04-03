@@ -1,6 +1,6 @@
 ﻿@media (max-width: 1135px) {
 
-    .product:nth-child(3) {
+    .opened-product:nth-child(3) {
         display: none;
     }
 }
@@ -11,6 +11,13 @@
 
         .full-description {
             margin-top: 0;
+        }
+
+        .top-filter {
+            .open-prod-sort-box {
+                margin-left: 0 !important;
+
+            }
         }
     }
 

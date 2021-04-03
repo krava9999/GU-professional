@@ -1,5 +1,8 @@
 ﻿@media (max-width:767px) {
 
+
+
+
     .center {
         padding-left: calc(50% - 212px);
         padding-right: calc(50% - 212px);
@@ -31,7 +34,15 @@
             z-index: 2;
         }
 
+        .header .header__right .big-menu .top-big-menu .hide-ico-desctop {
+            display: block;
 
+
+        }
+
+        .header .header__right .big-menu .top-big-menu .hide-ico-desctop .hide-ico-color path {
+            fill: $selectColor;
+        }
 
         .header__right .header-ico:not(:last-child) {
             margin: 0;
