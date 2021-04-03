@@ -957,6 +957,10 @@ input {
   margin-right: 28px;
 }
 
+.fetured .top-filter .sort-box .sort:last-child {
+  margin-right: 0;
+}
+
 .fetured .top-filter .sort-box .sort .size-sort {
   list-style: none;
   position: absolute;
@@ -1857,7 +1861,7 @@ input {
   }
   .fetured .top-filter .filter .filter-menu {
     width: 100%;
-    padding: 10px 0 0 0;
+    padding: 0;
   }
   .fetured .top-filter .sort-box {
     margin-left: auto;
@@ -1868,14 +1872,21 @@ input {
   .fetured .top-filter .sort-box .sort .size-sort {
     left: -10px;
   }
-  .hide-filter-ico {
+  .fetured .product-box {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fetured .top-filter .filter .filter-menu .filter-cat .hide-filter-ico {
     display: none;
   }
   .fetured .top-filter .filter .filter-ico-adaptive {
     display: block;
   }
-  .fetured .product-box {
-    margin-top: 40px;
+  .fetured .top-filter .sort-box .sort {
+    font-size: 12px;
+    line-height: 14px;
   }
 }
 /*# sourceMappingURL=style.css.map */
